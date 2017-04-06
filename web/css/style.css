@@ -1,0 +1,48 @@
+body {
+	color:#333333;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+}
+/* bof formulario */
+#form{
+	width:700px;
+	margin:auto;
+	border:1px solid #990000;
+	padding:15px;
+}
+#form legend{
+	font-size:14px;
+	font-weight:bold;
+	padding:5px;	
+}
+#form ol {
+	padding:0px;
+	margin:0px;
+	list-style:none;
+}
+#form ol li{
+	padding-bottom:5px;
+}
+#form label { 
+	float: left; 
+	width: 320px;
+	padding-right:10px;	
+	text-align: left; 
+	color:#003585;		
+}
+#form label.error { 
+	color:#990000;
+	float:none;
+	display:block;
+	margin-left:330px;
+}
+#form ol li span {
+	color:#666666;
+}
+input.btn {
+	color:#FFFFFF;
+	background-color:#990000;
+	font-size:10px;
+	border:1px solid #000000;
+}
+/* EOF formulario */
